@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+<< #include <bits/stdc++.h>
 
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
         ranac -= uzimamo; // nosivost ranca se samnjuje
     }
 
-    cout << res;
+    cout << fixed << setprecision(2) << res;
 
     return 0;
 }
